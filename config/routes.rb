@@ -1,35 +1,35 @@
 Rails.application.routes.draw do
-  get 'pages/home'
+  get 'home' , to: 'pages#home'
 
-  get 'pages/about'
+  get 'about' , to: 'pages#about'
 
-  get 'pages/leadership'
+  get 'leadership' , to: 'pages#leadership'
 
-  get 'pages/donors'
+  get 'donors' , to: 'pages#donors'
 
-  get 'pages/partners'
+  get 'partners' , to: 'pages#partners'
 
-  get 'pages/team'
+  get 'team' , to: 'pages#team'
 
-  get 'pages/newsroom'
+  get 'newsroom' , to: 'pages#newsroom'
 
-  get 'pages/jobs'
+  get 'jobs' , to: 'pages#jobs'
 
-  get 'pages/faq'
+  get 'faq' , to: 'pages#faq'
 
-  get 'pages/support'
+  get 'support' , to: 'pages#support'
 
-  get 'pages/mentors'
+  get 'mentors' , to: 'pages#mentors'
 
-  get 'pages/newyork'
+  get '/schools/newyork' , to: 'pages#newyork'
 
-  get 'pages/california'
+  get '/schools/california' , to: 'pages#california'
 
-  get 'pages/privacy'
+  get 'privacy' , to: 'pages#privacy'
 
-  get 'pages/terms'
+  get 'terms' , to: 'pages#terms'
 
-  get 'pages/community'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'community' , to: 'pages#community'
+  
+  root to: 'pages#home'
 end
