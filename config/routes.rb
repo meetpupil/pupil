@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :contacts, only: [:new, :create]
+  
   get 'home' , to: 'pages#home'
 
   get 'about' , to: 'pages#about'
@@ -30,6 +32,8 @@ Rails.application.routes.draw do
   get 'terms' , to: 'pages#terms'
 
   get 'community' , to: 'pages#community'
+  
+  get 'contact', to: 'contacts#new'
   
   root to: 'pages#home'
 end

@@ -1,0 +1,42 @@
+<div class="container content">
+  <div class="panel user">
+    <div class="panel-heading">
+      <center><strong>Contact Pupil</strong></center>
+    </div>
+    <div class="panel-body">
+        <%= form_for @contact do |f| %>
+        
+        <br>
+
+        <div class="field">
+          <%= f.text_field :name, :placeholder => "Your Full Name", required: true %>
+        </div>
+        
+        <br>
+
+        <div class="field">
+          <%= f.email_field :email, :placeholder => "Email Address", required: true %>
+        </div>
+        
+        <br>
+        
+        <div>
+          <%= f.text_area :message, as: :text, :placeholder => "Tell us your school or organization name and how we can help you.", required: true %>
+        </div>
+               
+        <br>
+                
+        <div class="hidden">
+          <%= f.label :nickname %><br>
+          <%= f.text_field :nickname, hint: 'leave this field blank' %>
+        </div>
+        
+        <%= f.submit 'Submit', :class => "btn btn-new" %>
+        <% end %>
+
+    <br>
+    </div>
+  </div> 
+</div>
+
+

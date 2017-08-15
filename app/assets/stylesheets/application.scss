@@ -81,8 +81,8 @@ a {
   font-size: .85em;
 }
 
-.CodeMirror {
-  height:  600px
+.hidden {
+  display: none;
 }
 
 
@@ -236,7 +236,7 @@ a {
 
 .container.content {
   min-height: 740px;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .code {
