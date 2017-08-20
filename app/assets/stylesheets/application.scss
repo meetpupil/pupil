@@ -35,6 +35,10 @@ h3 {
   font-weight: 300 !important;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -83,6 +87,23 @@ a {
 
 .hidden {
   display: none;
+}
+
+.or {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  color: $primary;
+}
+
+.or:after,
+.or:before {
+  content: "";
+  display: block;
+  background: $black;
+  width: 10%;
+  height:1px;
+  margin: 0 10px;
 }
 
 

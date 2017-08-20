@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   get 'leadership' , to: 'pages#leadership'
 
   get 'donors' , to: 'pages#donors'
-
+  
+  get 'donate' , to: 'pages#donate'
+  
   get 'partners' , to: 'pages#partners'
 
   get 'team' , to: 'pages#team'

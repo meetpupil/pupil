@@ -10,6 +10,9 @@ class PagesController < ApplicationController
 
   def donors
   end
+  
+  def donate
+  end
 
   def partners
   end
