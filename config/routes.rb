@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
   get 'terms' , to: 'pages#terms'
 
-  get 'community' , to: 'pages#community'
+  get '/schools/community' , to: 'pages#community'
   
   get 'contact', to: 'contacts#new'
   
