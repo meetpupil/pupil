@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201px" height="56px" viewBox="0 0 201 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="logo" sketch:type="MSArtboardGroup" transform="translate(-101.000000, -172.000000)">
+            <g sketch:type="MSLayerGroup" transform="translate(99.000000, 172.000000)">
+                <text id="dev" sketch:type="MSTextLayer" font-family="Nunito Sans" font-size="36" font-weight="633" sketch:alignment="middle" letter-spacing="1" fill="#000000">
+                    <tspan x="2.94" y="37">dev</tspan>
+                </text>
+                <g id="Rectangle-1-+-pupil" transform="translate(63.000000, 0.000000)">
+                    <path d="M137.710424,1.01260875e-08 C139.366413,-4.14292056e-08 140.330457,1.28830407 139.864874,2.87343006 L125.104531,53.1265699 C124.638411,54.7135215 122.924577,56 121.257347,56 L2.65274724,56 C0.994125641,56 0.0713598046,54.7251445 0.593865075,53.1459629 L17.234,2.85404083 C17.7555324,1.27779966 19.5126328,3.68993351e-06 21.1767518,3.63812512e-06 L137.710424,1.01260875e-08 Z" id="Rectangle-1" fill="#000000" sketch:type="MSShapeGroup"></path>
+                    <text id="pupil" sketch:type="MSTextLayer" font-family="Nunito Sans" font-size="36" font-weight="633" sketch:alignment="middle" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="25.5441719" y="37">pupil</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
