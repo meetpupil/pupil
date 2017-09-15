@@ -565,6 +565,8 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
   box-shadow: none;
   font-size: 0.95em;
   letter-spacing: 0.5px;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
 }
 
 textarea {
@@ -595,6 +597,8 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, select:
   box-shadow: none;
   outline: 0 none;
   background-color: $white;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
 }
 
 label {
