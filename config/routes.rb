@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources :contacts, only: [:new, :create]
   
+  resources :demos, only: [:new, :create]
+  
+  resources :mentors, only: [:new, :create]
+  
   get 'home' , to: 'pages#home'
 
   get 'about' , to: 'pages#about'
@@ -36,6 +40,10 @@ Rails.application.routes.draw do
   get '/schools/community' , to: 'pages#community'
   
   get 'contact', to: 'contacts#new'
+  
+  get 'demo', to: 'demos#new'
+  
+  get 'mentor', to: 'mentors#new'
   
   root to: 'pages#home'
 end

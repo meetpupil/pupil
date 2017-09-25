@@ -1,6 +1,6 @@
 $(function(){
   $("#typed").typed({
-    strings: ["Thanks for your message. We will be in touch soon!"],
+    strings: ["Thanks for reaching out. We will be in touch soon!"],
     typeSpeed: 100
   });
 });

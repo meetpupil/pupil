@@ -1,0 +1,60 @@
+<div class="container content">
+  <div class="panel user">
+    <div class="panel-heading">
+      <center><strong>Demo Request</strong></center>
+    </div>
+    <div class="panel-body">
+        <%= form_for @demo do |f| %>
+        
+        <br>
+
+        <div class="field">
+          <%= f.text_field :name, :placeholder => "Your Full Name", required: true %>
+        </div>
+        
+        <br>
+        
+        <div class="field">
+          <%= f.text_field :title, :placeholder => "Title", required: true %>
+        </div>
+        
+        <br>
+                
+        <div class="field">
+          <%= f.text_field :school, :placeholder => "School Name", required: true %>
+        </div>
+        
+        <br>
+
+        <div class="field">
+          <%= f.email_field :email, :placeholder => "Your School Email Address", required: true %>
+        </div>
+        
+        <br>
+        
+        <div class="field dropdown">
+          <%= f.select :demographics, [["0 - 25% minority students"], ["26 - 50% minority students"], ["> 50% minority students"]], prompt: "Demographics", required: true %>
+        </div>
+        
+        <br>
+        
+        <div>
+          <%= f.text_area :message, as: :text, :placeholder => "Leave your message here.", required: true %>
+        </div>
+               
+        <br>
+                
+        <div class="hidden">
+          <%= f.label :nickname %><br>
+          <%= f.text_field :nickname, hint: 'leave this field blank' %>
+        </div>
+        
+        <%= f.submit 'Submit', :class => "btn btn-new" %>
+        <% end %>
+
+    <br>
+    </div>
+  </div> 
+</div>
+
+
