@@ -1,37 +1,40 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <h6><strong>Company</strong></h6>
         <li><a href="/about">About Us</a></li>
         <li><a href="/leadership">Leadership</a></li>
+        <li><a href="/team">Core Team</a></li>
         <li><%= link_to "Blog", "https://medium.com/@devpupil", :target => "_blank" %></li>
         <li><a href="/jobs">Jobs</a></li>
       </div>
-      <div class="col-sm-2">
-        <h6><strong>Schools</strong></h6>
-        <li><a href="/schools/california">California</a></li>
-        <li><a href="/schools/newyork">New York</a></li>
-        <li><a href="/schools/community">Community</a></li>
-      </div>
-      <div class="col-sm-2">
-        <h6><strong>Teams</strong></h6>
-        <li><a href="/team">Core Team</a></li>
-        <%
+      <%
+      #<div class="col-sm-2">
+        #<h6><strong>Schools</strong></h6>
+        #<li><a href="/schools/california">California</a></li>
+        #<li><a href="/schools/newyork">New York</a></li>
+        #<li><a href="/schools/community">Community</a></li>
+      #</div>
+      %>
+      <%
+      #<div class="col-sm-2">
+        #<h6><strong>Teams</strong></h6>
+        #<li><a href="/team">Core Team</a></li>
         #<li><a href="/donors">Donors</a></li>
         #<li><a href="/partners">Partners</a></li>
-        %>
-      </div>
-      <div class="col-sm-2">
+      #</div>
+      %>
+      <div class="col-sm-3">
         <h6><strong>Help</strong></h6>
         <li><%= link_to "Support", "http://support.devpupil.org", :target => "_blank" %></li>
         <li><a href="/contact">Contact</a></li>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <h6><strong>Legal</strong></h6>
         <li><a href="/terms">Terms</a></li>
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <p class="text-muted inc">&copy; 2017 DevPupil</p>
         <p class="text-muted inc">929 Colorado Ave, Santa Monica, CA 90401</p>
       </div>
