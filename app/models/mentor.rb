@@ -14,7 +14,7 @@ class Mentor < MailForm::Base
   def headers
     {
       :subject => "Mentor Application Form",
-      :to => "jim@devpupil.org",
+      :to => "jimmy@devpupil.com",
       :from => %("#{name}" <#{email}>)
     }
   end

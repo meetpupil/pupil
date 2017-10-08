@@ -10,7 +10,7 @@ class Demo < MailForm::Base
   def headers
     {
       :subject => "Demo Request Form",
-      :to => "jim@devpupil.org",
+      :to => "jimmy@devpupil.com",
       :from => %("#{name}" <#{email}>)
     }
   end
